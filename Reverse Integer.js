@@ -3,7 +3,7 @@
  * @return {number}
  */
 var reverse = function(x) {
-    /*var arr = x.toString().match(/\d/g);    //Number -> String -> Array
+    /*var arr = x.toString().match(/\d/g);    //Number -> String -> Array or var arr = x.toString().split('')
     var result = "";
     if(x < 0) {
         result += "-";  //if x is negative, add '-'
@@ -17,7 +17,7 @@ var reverse = function(x) {
             i--;
         }
     }
-    for(let j=0; j<arr.length; j++) {   //arr -> String -> Array
+    for(let j=0; j<arr.length; j++) {   //Array -> String or result = arr.join('')
         result += arr[j]
     }
     result = Number(result);    //String -> Number
